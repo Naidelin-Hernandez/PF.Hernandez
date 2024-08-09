@@ -1,0 +1,288 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face{
+    font-family: "Merriweather.zip";
+    src: url(../font/Merriweather.zip);
+}
+body{
+    background-color:  rgb(255, 252, 223); /*Color de fondo*/
+    font-family: "Merriweather.zip"; /*tipografia*/
+    margin: O;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.body-inicio{
+    background-color:  rgb(255, 252, 223); /*Color de fondo*/
+    font-family: "Merriweather.zip"; /*tipografia*/
+    margin: O;
+    position: relative; /*Para que el footer quede abajo*/
+    padding-bottom: 5em; /*Para que no matgenes abajo*/
+}
+header{
+    display: flex; /*Para que quede lineal*/
+    min-height: 120px; /*Altura minima del header*/
+    background: url(../img/fondo.jpeg); /*imagen de fondo*/
+    justify-content: space-between; /*Para que quede en el eje principal y se separen*/
+    align-items: center; /*Alinear los elementos verticalmente*/
+    padding: 10px; /*Deparar los elementos del borde*/
+    
+} /**/
+
+.logo{
+    display: flex; /*Para que quede leneal*/
+    align-items: center; /* Para que el logo quede centrado*/
+} 
+
+.logo img{
+    height: 100px; /*Tamaño de logo*/
+    margin-right: 10px;  /*Para separar del titulo */
+    padding: 5px; 
+    border-radius: 100px; /*coloca el logo circular*/
+    border: 5px rgb(0, 0, 0) solid; /* lineas alrededor del logo*/
+}
+
+nav a{
+    display: inline-block;
+    font-weight: 600; /*Para hacer la letra negrita*/
+    padding: 10px; /*Para  que las palabras queden centradas*/
+    border: rgb(19, 0, 4) 2px solid; /*Borde cuadrado del menu*/
+    margin: 10px; /*Para que separen las cajitas*/
+    
+  
+}
+
+nav a:hover{
+    color: white; /*Para que se coloque blanco cada vez que se toque*/
+}
+
+a{
+    text-decoration: none; /*Quita subrayado del menu*/
+    color:rgb(254, 250, 255);
+}
+
+.nombre-empresa{
+    color: rgb(255, 255, 255);
+    padding-left: 300px; /*Aleja del titulo del logo*/
+    font-style: italic; /* Letra curva*/
+    font-size: 40px; /* Tamaño del logo*/
+}
+
+/**/
+.fiesta-img{
+    background-color: rgb(227, 134, 255); 
+    border: solid 2px rgb(0, 0, 0);
+    display: flex; /*Para que los elementos sean lineales*/
+    text-align: center; /*Los elementos se centren*/ 
+
+}
+.fiesta-img img{
+    width: 300px; /* Tamaño de la imagen*/
+    height: 250px;
+    margin-left: 8px; /* para separar del borde*/
+}
+.subt{
+    color: rgb(0, 0, 0); 
+    font-size: 25px; /*Tamaño de la letra*/
+    text-align: end; /*Para mover el titulo a la derecha y quede en el centro*/
+    font-family: "Merriweather-bold" serif;
+    font-weight: 200px; /*Letra negrita*/
+    padding: 10px; /* Para alejarlo del borde de arriba*/
+    margin-right: 350px; /*Para separar del borde derecho*/
+}
+.creamos{
+    color:rgb(0, 0, 0);
+    font-size: 1.5rem; /* Tamaño del parrafo*/
+    line-height: 1.2 rem;/**/
+    padding: 20px;/* Separa el parrafo del titulo*/
+    font-family: "Merriweather-black", serif;
+    /*Letra negrita font-style: italic;  font-weight: 900px;/*letra curva*/
+    
+    
+}
+
+/*Titulo arriba del container*/
+.deco1 h2{
+    color:rgb(0, 0, 0);
+    font-size: 30px; /*Tamaño de subtitulo*/
+    text-align: center; /*Para que este centrado*/
+    font-family: "Merriweather-bold" serif;
+    font-style: normal;
+    font-weight: 700; /*Letra negrita*/
+    padding: 20px;/*Separacion del subtitulo con la caja de arriba*/
+}
+.container{
+    height: 70vh; /*Separación de top y botton de los tres container */
+    display: flex; /* Alinear los elementos*/
+    gap: 3em; /*Espacio entre cada container*/
+    padding: 0 100px; /*Separacion de right y lef*/
+}
+
+.div1, .div2, .div3{
+    width: 21rem;/* Ancho del container*/
+    height: 25rem;  /*Altura del container*/
+    background-color: rgb(227, 134, 255);
+    box-shadow: 5px 5px 25px rgb(48, 47, 47); /*Sombra de los container*/
+    padding: 10px 30px; /* separacion de los borde*/
+    border-radius: 10px; /*Para colocar el borde circular*/
+}
+
+.di1, .di2, .di3{
+    width: 21rem; /* Ancho del container*/
+    height: 25rem;/*Altura del container*/
+    background-color: rgb(227, 134, 255);
+    box-shadow: 5px 5px 25px rgb(67, 66, 66); /*Sombra de los container*/
+    padding: 10px 30px; /* separacion de los borde*/
+    border-radius: 10px; /*Para colocar el borde circular*/
+}
+
+/*Subtitulo que esta dentro del container*/
+h2{ 
+    color: rgb(0, 0, 0);
+    font-size: 30px;/*tamano de la letra*/
+    text-align: center; /*Para colocar los elementos en el centro*/
+    font-family: "Merriweather-bold" serif;
+    font-style: normal;
+    font-weight: 700;/*Letra negrita*/
+    padding: 10px; /*Separa el subtitulo de la parte de arriba*/
+}
+
+p{
+    color:rgb(0, 0, 0);
+    font-size: 1.2rem; /*Tamaño de la palabra*/
+    line-height: 2rem; /*Espacios entre lineas*/
+    padding: 20px; /*Separacion de los borde*/
+    font-family: "Merriweather", serif;
+    font-weight: 400; /*Letra negrita*/
+    
+}
+/**/
+
+/*Columnas grid*/
+
+.grid-containers{
+    display: grid; /*Para realizar la grilla */
+    grid-template-rows: auto auto auto; /*cantidad de fila*/
+    grid-template-columns: repeat(3, 400px); /*cantidad de columna*/
+    row-gap: 70px; /*Separacion de filas*/
+    column-gap: 10px; /*Separacion de columna*/
+    margin-top: 30px; /* Separar de arriba*/
+    padding-bottom: 20px;
+}
+
+.grid-containers .grid-items{
+    font-size: 21px; /*Tamaño de las palabras*/
+    padding: 20px;
+    text-align: center; /*Centrar el subtitulo*/
+}
+
+.grid-items img{
+    width: 80%; /*Establece el ancho de la img*/
+    height: 80%;/*Permite que la altura se ajuste automaticamente*/
+}
+
+.uno{
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.dos{
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    
+}
+
+.tres{
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+    
+}
+
+.cuatro{
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+    
+}
+
+.cinco{
+    grid-column: 2 / 2 ;
+    grid-row: 2 / 2;
+}
+
+.seis{
+    grid-column: 3 /3;
+    grid-row: 2 / 2;
+}
+
+.siete{
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+
+}
+
+.ocho{
+ grid-column: 2 / 2;
+ grid-row: 3 / 3;
+
+}
+
+.nueve{
+grid-column: 3 / 3;
+grid-row: 3 / 3;
+}
+
+.dies{
+    grid-column: 1 / 1;
+    grid-row: 4 / 4;
+}
+
+.once{
+    grid-column: 2 / 2;
+    grid-row: 4 / 4;
+}
+
+.doce{
+    grid-column: 3 / 3;
+    grid-row: 4 / 4;
+}
+
+.servicios{
+    color: rgb(0, 0, 0);
+    font-size: 30px;/*tamano de la letra*/
+    text-align: center; /*Para colocar los elementos en el centro*/
+    font-family: "Merriweather-bold" serif;
+    font-style: normal;
+    font-weight: 700;/*Letra negrita*/
+    padding: 10px; /*Separa el subtitulo de la parte de arriba*/
+    margin-top: 40px;
+}
+
+
+footer{
+    
+    background: url(../img/fondo.jpeg);
+    background-color: bisque;
+    text-align: center;
+    padding: 20px; /*Tamaño del footer*/
+    left: 0px;  /*Para que no tenga espacio a la izquierda*/
+    margin-top: auto;
+}
+.footer-inicio{
+    width: 100%;
+    background: url(../img/fondo.jpeg);
+    background-color: bisque;
+    text-align: center;
+    padding: 20px; /*Tamaño del footer*/
+    left: 0px;  /*Para que no tenga espacio a la izquierda*/
+    position: absolute; /*Para que el footer pierda sus medidas*/
+    bottom: 0; /*Para que matener abajo*/
+    
+}
+
+
+
+
+
