@@ -1,0 +1,89 @@
+.fiesta-img{
+    background-color: $violet; 
+    border: solid 2px rgb(0, 0, 0);
+    display: flex; 
+    text-align: center;
+
+    img{
+        width: 300px;
+        height: 250px;
+        margin-left: 8px; 
+    }
+    .subt{
+        color: rgb(0, 0, 0); 
+        font-size: 25px;
+        text-align: end; 
+        font-family: "Merriweather-bold" serif;
+        font-weight: 200px; 
+        padding: 10px;
+        margin-right: 350px;
+    }
+    .creamos{
+        color:rgb(0, 0, 0);
+        font-size: 1.5rem; 
+        line-height: 1.2 rem;
+        padding: 20px;
+        font-family:"Merriweather-black", serif;
+    }
+
+}
+
+
+
+.deco1 h2{
+color:rgb(0, 0, 0);
+font-size: 30px;
+text-align: center; 
+font-family: "Merriweather-bold" serif;
+font-style: normal;
+font-weight: 700; 
+padding: 20px;
+}
+
+.sub-container{
+    margin-left: 130px;
+    }
+
+.container{
+    height: 70vh;
+    display: flex; 
+    gap: 3em; 
+    padding: 0 100px;
+
+    .div1, .div2, .div3{
+        width: 21rem;
+        height: 25rem;  
+        background-color: rgb(227, 134, 255);
+        box-shadow: 5px 5px 25px rgb(48, 47, 47);
+        padding: 10px 30px;
+        border-radius: 10px;
+    }
+
+    .di1, .di2, .di3{
+        width: 21rem;
+        height: 25rem;
+        background-color: rgb(227, 134, 255);
+        box-shadow: 5px 5px 25px rgb(67, 66, 66);
+        padding: 10px 30px;
+        border-radius: 10px; 
+
+    }
+    h2{ 
+            color: rgb(0, 0, 0);
+            font-size: 30px;
+            text-align: center; 
+            font-family: "Merriweather-bold" serif;
+            font-style: normal;
+            font-weight: 700;
+            padding: 10px;
+        }
+    p{
+            color:rgb(0, 0, 0);
+            font-size: 1.2rem; 
+            line-height: 2rem; 
+            padding: 20px; 
+            font-family: "Merriweather", serif;
+            font-weight: 400; 
+            
+    }
+}

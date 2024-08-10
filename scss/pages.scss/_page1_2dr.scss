@@ -1,0 +1,95 @@
+
+h2{ 
+    color: rgb(0, 0, 0);
+    font-size: 30px;/*tamano de la letra*/
+    text-align: center; /*Para colocar los elementos en el centro*/
+    font-family: "Merriweather-bold" serif;
+    font-style: normal;
+    font-weight: 700;/*Letra negrita*/
+    padding: 10px; /*Separa el subtitulo de la parte de arriba*/
+}
+
+.grid-containers{
+    display: grid; /*Para realizar la grilla */
+    grid-template-rows: auto auto auto; /*cantidad de fila*/
+    grid-template-columns: repeat(3, 400px); /*cantidad de columna*/
+    row-gap: 70px; /*Separacion de filas*/
+    column-gap: 10px; /*Separacion de columna*/
+    margin-top: 30px; /* Separar de arriba*/
+    padding-bottom: 20px;
+
+    .grid-items{
+        font-size: 21px; /*Tamaño de las palabras*/
+        padding: 20px;
+        text-align: center; /*Centrar el subtitulo*/
+    }
+    
+    img{
+        width: 80%; /*Establece el ancho de la img*/
+        height: 80%;/*Permite que la altura se ajuste automaticamente*/
+    }
+    
+    .uno{
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+    }
+    
+    .dos{
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
+        
+    }
+    
+    .tres{
+        grid-column: 3 / 3;
+        grid-row: 1 / 1;
+        
+    }
+    
+    .cuatro{
+        grid-column: 1 / 1;
+        grid-row: 2 / 2;
+        
+    }
+    
+    .cinco{
+        grid-column: 2 / 2 ;
+        grid-row: 2 / 2;
+    }
+    
+    .seis{
+        grid-column: 3 /3;
+        grid-row: 2 / 2;
+    }
+    
+    .siete{
+        grid-column: 1 / 1;
+        grid-row: 3 / 3;
+    
+    }
+    
+    .ocho{
+     grid-column: 2 / 2;
+     grid-row: 3 / 3;
+    
+    }
+    .nueve{
+    grid-column: 3 / 3;
+    grid-row: 3 / 3;
+    }
+    
+    .dies{
+        grid-column: 1 / 1;
+        grid-row: 4 / 4;
+    }
+    
+    .once{
+        grid-column: 2 / 2;
+        grid-row: 4 / 4;
+    }
+    
+    .doce{
+        grid-column: 3 / 3;
+        grid-row: 4 / 4;
+    }
+}

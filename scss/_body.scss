@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: $fondob;
+    font-family: "Merriweather.zip";
+    margin: Opx;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.body-inicio{
+    background-color:  $fondob; 
+    font-family: "Merriweather.zip"; 
+    margin: O;
+    position: relative;
+    padding-bottom: 5em;
+}
