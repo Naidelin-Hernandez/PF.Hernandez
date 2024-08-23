@@ -1,0 +1,81 @@
+
+h2{ 
+    color: rgb(0, 0, 0);
+    font-size: 30px;/*tamano de la letra*/
+    text-align: center; /*Para colocar los elementos en el centro*/
+    font-family: "Merriweather-bold" serif;
+    font-style: normal;
+    font-weight: 700;/*Letra negrita*/
+    padding: 10px; /*Separa el subtitulo de la parte de arriba*/
+}
+
+.grid-containers{
+    @extend .button;
+
+    .grid-items{
+        font-size: 21px; /*Tamaño de las palabras*/
+        padding: 20px;
+        text-align: center; /*Centrar el subtitulo*/
+        transition: all 1s;
+        
+    }
+    .grid-items:hover{
+        transform: scale(1.2, 1.2);
+    }
+    
+    .regalos{
+        @extend .button_m;
+
+    }
+    
+    .uno_1{
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+    }
+    
+    .dos_2{
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
+        
+    }
+    
+    .tres_3{
+        grid-column: 3 / 3;
+        grid-row: 1 / 1;
+        
+    }
+    
+    .cuatro_4{
+        grid-column: 1 / 1;
+        grid-row: 2 / 2;
+        
+    }
+    
+    .cinco_5{
+        grid-column: 2 / 2 ;
+        grid-row: 2 / 2;
+    }
+    
+    .seis_6{
+        grid-column: 3 /3;
+        grid-row: 2 / 2;
+    }
+    
+    .siete_7{
+        grid-column: 1 / 1;
+        grid-row: 3 / 3;
+    
+    }
+    
+    .ocho_8{
+     grid-column: 2 / 2;
+     grid-row: 3 / 3;
+    
+    }
+    .nueve_9{
+    grid-column: 3 / 3;
+    grid-row: 3 / 3;
+    }
+    
+
+}

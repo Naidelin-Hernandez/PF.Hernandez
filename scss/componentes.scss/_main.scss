@@ -42,6 +42,7 @@ padding: 20px;
 
 .sub-container{
     margin-left: 130px;
+    
     }
 
 .container{
@@ -53,7 +54,7 @@ padding: 20px;
     .div1, .div2, .div3{
         width: 21rem;
         height: 25rem;  
-        background-color: rgb(227, 134, 255);
+        background-color: $violet;
         box-shadow: 5px 5px 25px rgb(48, 47, 47);
         padding: 10px 30px;
         border-radius: 10px;
@@ -62,7 +63,7 @@ padding: 20px;
     .di1, .di2, .di3{
         width: 21rem;
         height: 25rem;
-        background-color: rgb(227, 134, 255);
+        background-color: $violet;
         box-shadow: 5px 5px 25px rgb(67, 66, 66);
         padding: 10px 30px;
         border-radius: 10px; 

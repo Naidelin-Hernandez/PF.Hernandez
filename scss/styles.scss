@@ -1,12 +1,16 @@
-@import "var.scss";
-@import "body.scss";
-@import "header.scss";
-@import "main.scss";
-@import "./pages.scss/page1_2dr";
-@import "./pages.scss/page3_n";
-@import "./pages.scss/page4_a";
-@import "footer.scss";
+@import "../scss/config.scss/var";
+@import "../scss/componentes.scss/body";
+@import "../scss/componentes.scss/header";
+@import "../scss/componentes.scss/main";
+@import "../scss/config.scss/extend";
+@import "../scss/pages.scss/page1_d";
+@import "../scss/pages.scss/page2_r";
+@import "../scss/pages.scss/page3_n";
+@import "../scss/pages.scss/page4_a";
+@import "../scss/componentes.scss/footer";
 
+
+/*jquery*/
 
 @media screen and (max-width:768px) {
 

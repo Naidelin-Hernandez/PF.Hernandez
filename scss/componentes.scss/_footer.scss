@@ -1,21 +1,27 @@
 footer{
-    
-    background: url(../img/fondo.jpeg);
+
     background-color: bisque;
     text-align: center;
     padding: 20px; 
     left: 0px;  
     margin-top: auto;
+    background: linear-gradient(to left, $oscuro, black);
+    h4{
+        color: white;
+    }
 }
 
 .footer-inicio{
     width: 100%;
-    background: url(../img/fondo.jpeg);
+    background: linear-gradient(to left, $oscuro, black);
     background-color: bisque;
     text-align: center;
     padding: 20px; 
     left: 0px; 
     position: absolute; 
     bottom: 0; 
+    h4{
+        color: white;
+    }
     
 }
