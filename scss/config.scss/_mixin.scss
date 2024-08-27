@@ -1,0 +1,7 @@
+@mixin nosotros($wi, $mar,$marr, $marb, $marl){
+    width: $wi;
+    height: 350px;
+    padding: 10px;
+    border: 2px $oscuro solid;
+    margin: $mar $marr $marb $marl;
+    }

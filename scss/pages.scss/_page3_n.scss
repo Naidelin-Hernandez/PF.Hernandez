@@ -1,0 +1,44 @@
+.nacio{
+    color: rgb(0, 0, 0);
+    font-size: 30px;/*tamano de la letra*/
+    text-align: left; /*Para colocar los elementos en el centro*/
+    font-family: "Merriweather-bold" serif;
+    font-style: normal;
+    font-weight: 700;/*Letra negrita*/
+    padding: 20px; /*Separa el subtitulo de la parte de arriba*/
+    margin-left: 200px;
+}
+
+.nosotrosdecodulces{
+    display: flex;
+    text-align: center;
+    
+    p{
+        text-align: left;
+        color:rgb(0, 0, 0);
+        font-size: 1.5rem; 
+        line-height: 2.5rem;
+        padding: 15px 80px 0px 80px;
+        margin: 20px 70px 0px 70px ;
+        font-family:"Merriweather-black", serif;
+        background-color: $violet;
+     
+    }
+
+    .imgregalos{
+
+        @include nosotros(400px, 60px, 150px, 0px, 0px);
+
+    }
+
+
+}
+
+ .imgdeco{
+
+        @include nosotros(350px, 15px, 10px, 20px, 150px);
+
+    }
+
+
+

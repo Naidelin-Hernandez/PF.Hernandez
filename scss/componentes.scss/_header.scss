@@ -13,7 +13,8 @@ header{
         
         img{
             height: 100px; 
-            margin-right: 10px;  
+            width: 100px;
+            margin-right: 6px;  
             padding: 5px; 
             border-radius: 100px; 
             border: 3px white solid;
@@ -21,7 +22,7 @@ header{
 
         .nombre-empresa{
             color: rgb(255, 255, 255);
-            padding-left: 300px; 
+            padding-left: 200px; 
             font-style: italic; 
             font-size: 40px; 
         }
@@ -32,7 +33,6 @@ header{
             display: inline-block;
             font-weight: 600; 
             padding: 10px;
-            border: rgb(19, 0, 4) 2px solid; 
             margin: 10px; 
         
     }
@@ -40,6 +40,7 @@ header{
         color: black;
 }
     a{
+        font-size: 20px;
         text-decoration: none;
         color:rgb(254, 250, 255);
 }
