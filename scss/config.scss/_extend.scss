@@ -1,3 +1,5 @@
+
+/*page1-page2*/
 .button{
     display: grid;
     grid-template-rows: auto auto auto; 
@@ -25,3 +27,16 @@
     @extend .button_im;
     border: 3px $oscuro solid;
 }
+
+/*ayuda-page4*/
+
+.button_ayuda{
+    width: 150px;
+    height: 150px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px black solid;
+}
+
+

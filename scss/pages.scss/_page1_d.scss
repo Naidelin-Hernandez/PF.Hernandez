@@ -1,27 +1,37 @@
 
 h2{ 
     color: rgb(0, 0, 0);
-    font-size: 30px;/*tamano de la letra*/
-    text-align: center; /*Para colocar los elementos en el centro*/
+    font-size: 30px;
+    text-align: center; 
     font-family: "Merriweather-bold" serif;
     font-style: normal;
-    font-weight: 700;/*Letra negrita*/
-    padding: 10px; /*Separa el subtitulo de la parte de arriba*/
+    font-weight: 700;
+    padding: 10px; 
+}
+.linea{
+    color: $oscuro;
+    background-color: $violet;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+
 }
 
 .grid-containers{
  @extend .button;
 
     .grid-items{
-        font-size: 21px; /*Tamaño de las palabras*/
+    
+        font-size: 21px; 
         padding: 20px;
-        text-align: center; /*Centrar el subtitulo*/
+        text-align: center; 
         transition: all 1s;
     
     }
     .grid-items:hover{
         transform: scale(1.2, 1.2);
     }
+    
     
     img{
        @extend .button_v;
@@ -31,6 +41,7 @@ h2{
     .uno{
         grid-column: 1 / 1;
         grid-row: 1 / 1;
+
     }
     
     .dos{
@@ -92,17 +103,42 @@ h2{
         grid-row: 4 / 4;
     }
 }
+
+.whatsapp{
+    font-size: 40px;
+    padding-top: 15px;
+ 
+}
+.whatsapp:hover{
+    color: $oscuro;
+}
+
+.saber{
+    color: black;
+    background-color: $violet;
+    font-size: 20px;
+    font-style: italic;
+}
+.saber:hover{
+    color: black;
+}
+
 .servicios{
     animation-name: animation2; 
     animation-iteration-count: infinite;
     animation-duration: 3s;
-    color: rgb(0, 0, 0);
-    font-size: 30px;/*tamano de la letra*/
-    text-align: center; /*Para colocar los elementos en el centro*/
+    color: $oscuro;
+    font-size: 30px;
+    text-align: center; 
     font-family: "Merriweather-bold" serif;
     font-style: normal;
-    font-weight: 700;/*Letra negrita*/
-    padding: 10px; /*Separa el subtitulo de la parte de arriba*/
+    font-weight: 700;
+    padding: 10px;
     margin-top: 40px;
     
+}
+
+.page{
+    color: black;
+    background-color: $fondob;
 }

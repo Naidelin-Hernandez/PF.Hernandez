@@ -1,0 +1,17 @@
+.caracas{
+    width: 200px;
+    height: 150px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px black solid;
+}
+
+.pagos{
+    @extend .button_ayuda;
+}
+
+.pedidos{
+    @extend .button_ayuda;
+
+}
