@@ -1,5 +1,488 @@
 /*jquery*/
 
+@media screen and (max-width:768px) {
+
+    header{
+        width: 100%;
+        flex-direction: column;
+
+        .logo{
+            margin-right: 180px;
+
+            img{
+                width: 15%;
+                height: 15%;
+                margin-left: 100px;
+                right: 10px;
+            }
+
+            .nombre-empresa{
+                font-size: 35px;
+                text-align: center;
+                padding-left: 110px;
+            }
+        }
+
+        nav{
+
+            margin: 10px;
+            padding: 5px;
+           
+        }
+        a{
+            font-size: 20px;
+        }
+     }
+
+     .header-inicio{
+        width: 100%;
+     }
+
+    .body-inicio{
+        width: 100%;
+        left: 0px;
+        margin: O;
+        position: relative; 
+        padding-bottom: 2.5em;
+        background-color: rgb(255, 237, 237);
+    
+    }
+
+
+
+    .fiesta-img{
+        height:100%;
+
+        img{
+            width: 40%; 
+            height: 10%;
+            margin-top: 0px;
+        }
+        .subt{
+            text-align: center;
+            padding: auto;
+            margin-right: 0px;
+        }
+        .creamos{
+            font-size: 1.2rem;
+            margin-right: 55px;
+    
+        }
+
+    }
+
+    .container{
+        height: 80px;
+        flex-direction: column;
+        margin-bottom: 760px;
+        margin-left: 100px;
+        margin-top: 10px;
+        padding-bottom: 100px;
+
+        .div1 .div2 .div3 .di1 .di2 .di3 {
+            max-width: 80%;
+            padding: 50px 30px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        
+        }
+
+        p{
+            font-size: 1rem;
+        }
+
+     }
+
+     .linea{
+        margin-left: 5px;
+        margin: 5px;
+    }
+
+    h2{
+       margin: 5px;
+
+    }
+
+    .grid-containers{
+         display: grid; 
+         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+         grid-template-columns: 1fr 1fr; 
+
+         .grid-items img{
+            width: 80%;
+            height: 80%;;
+            }
+
+
+        .uno{grid-column: 1 / 1;
+         grid-row: 1 / 1;
+        }
+     
+        .dos{
+         grid-column: 2 / 2;
+         grid-row: 1 / 1;
+         
+        }
+     
+        .tres{
+         grid-column: 1 / 1;
+         grid-row: 2 / 2;
+         
+        }
+     
+        .cuatro{
+         grid-column: 2 / 2;
+         grid-row: 2 / 2;
+         
+         }
+     
+        .cinco{
+        grid-column: 1 / 1 ;
+         grid-row: 3 / 3;
+        }
+     
+        .seis{
+         grid-column: 2 / 2;
+         grid-row: 3 / 3;
+         }
+     
+        .siete{
+         grid-column: 1 / 1;
+         grid-row: 4 / 4;
+     
+        }
+     
+        .ocho{
+         grid-column: 2 / 2;
+         grid-row: 4 / 4;
+        
+        }
+     
+        .nueve{
+         grid-column: 1 / 1;
+         grid-row: 5 / 5;
+        }
+     
+        .dies{
+         grid-column: 2 / 2;
+         grid-row: 5 / 5;
+        }
+     
+        .once{
+         grid-column: 1 / 1;
+         grid-row: 6 / 6;
+        }
+     
+        .doce{
+         grid-column: 2 / 2;
+         grid-row: 6 / 6;
+         }
+
+            /*page2*/
+
+        .saberr{
+                font-size: 18px;
+                margin-bottom: 20px;
+                margin-left: 20px;
+        }
+
+             
+
+        .uno_1{
+                grid-column: 1 / 1;
+                grid-row: 7 / 7;
+                }
+                    
+        .dos_2{
+                grid-column: 2 / 2;
+                grid-row: 7 / 7;        
+            }
+                    
+        .tres_3{
+                grid-column: 1 / 1;
+                grid-row: 8 / 8;            
+            }
+                    
+        .cuatro_4{
+                grid-column: 2 / 2;
+                grid-row: 8 / 8;
+                        
+            }
+                    
+        .cinco_5{
+                grid-column: 1 / 1 ;
+                grid-row: 9 / 9;
+            }
+                    
+        .seis_6{
+                grid-column: 2 / 2;
+                grid-row: 9 / 9;
+            }
+                    
+        .siete_7{
+                grid-column: 1 / 1;
+                grid-row: 10 / 10;
+                    
+            }
+                    
+        .ocho_8{
+                grid-column: 2 / 2;
+                grid-row: 10 / 10;
+            }
+                    
+        .nueve_9{
+                grid-column: 1 / 1;
+                grid-row: 11 / 11;
+            }
+                    
+        .diez_10{
+                grid-column: 2 / 2;
+                grid-row: 11 / 11;
+            }
+                    
+        .once_11{
+                grid-column: 1 / 1;
+                grid-row: 12 / 12;
+            }
+                    
+        .doce_12{
+            grid-column: 2 / 2;
+            grid-row: 12 / 12;
+            }
+
+        .catorce{
+                grid-column: 1 / 1;
+                grid-row: 13 / 13;
+            }
+                    
+        .quince{
+                grid-column: 2 / 2;
+                grid-row: 13 / 13;        
+            }
+                    
+        .dieciseis{
+                grid-column: 1 / 1;
+                grid-row: 14 / 14;            
+            }
+                    
+        .dicisiete{
+                grid-column: 2 / 2;
+                grid-row: 14 / 14;
+                        
+            }
+                    
+        .diciocho{
+                grid-column: 1 / 1 ;
+                grid-row: 15 / 15;
+            }
+                    
+        .diecinueve{
+                grid-column: 2 / 2;
+                grid-row: 15 / 15;
+            }
+                    
+        .veinticinco{
+                grid-column: 1 / 1;
+                grid-row: 16 / 16;
+                    
+            }
+                    
+        .veintiseis{
+                grid-column: 2 / 2;
+                grid-row: 16 / 16;
+            }
+                    
+        .veintisiete{
+                grid-column: 1 / 1;
+                grid-row: 17 / 17;
+            }
+                    
+        .veintiocho{
+                grid-column: 2 / 2;
+                grid-row: 17 / 17;
+            }
+                    
+        .veintinueve{
+                grid-column: 1 / 1;
+                grid-row: 18 / 18;
+            }
+                    
+        .treinta{
+                grid-column: 2 / 2;
+                grid-row: 18 / 18;
+            }
+
+        .treintiuno{
+                grid-column: 1 / 1;
+                grid-row: 19 / 19;
+            }
+                        
+        .treintidos{
+                grid-column: 2 / 2;
+                grid-row:  19 / 19;
+            }
+                        
+        .treintitres{
+                grid-column: 1 / 1;
+                grid-row: 20 / 20;
+            }
+                        
+        .treinticuatro{
+                grid-column: 2 / 2;
+                grid-row: 20 / 20;
+            }
+                        
+        .treinticinco{
+                grid-column: 1 / 1;
+                grid-row: 21 / 21;
+            }
+
+         
+        
+    }
+       
+ 
+
+     .servicios{
+         margin-left: 0px;
+        }
+            
+
+        h4{
+            margin-left: 180px;
+           text-align: center;
+        }
+
+        .nacio{
+            margin-left: 200px;
+         }
+    
+         .nosotrosdecodulces{
+            height: 70%;
+            width: 100%;
+            display: inline-block;
+     
+            .detalles{
+                font-size: 20px;
+                text-align: justify;
+                line-height: 1.5rem;
+                padding: 10px 50px 10px 50px;
+                margin: 5px;
+                border: 0px;
+    
+            }
+            .imgregalos{
+                width: 70%;
+                margin-left: 150px;
+    
+          
+            }
+    
+         }
+    
+    
+    
+         .imgdeco{
+            margin-left: 250px;
+         }
+
+    footer{
+        display: inline-block;
+
+        .instagram{
+            display: flex;
+            padding: 2px;
+            margin: 0px;
+            margin-left: 330px;
+        }
+        .facebook{
+            display: flex;
+            padding: 2px;
+            margin: 0px;
+            margin-left: 330px;
+         }
+         .whatsapp{
+             display: flex;
+             font-size: 20px;
+             padding: 2px;
+             margin: 0px;
+             margin-left: 330px;
+ 
+         }
+         
+         .correo{
+             display: flex;
+             padding: 2px;
+             margin: 0px;
+             margin-left: 330px;
+         }
+         
+         .phono{
+
+             font-size: 15px;
+             padding: 2px;
+             margin: 0px;
+             margin-left: 40px;
+            
+         }
+
+
+    }
+            
+    .footer-inicio{
+        display: block;
+        width: 168%;
+        position: relative;
+        left: -200px;
+        font-size: 10px;
+
+
+
+
+            .instagram{
+                display: flex;
+                padding: 2px;
+                margin: 0px;
+                margin-left: 300px;
+                
+            }
+            
+            .facebook{
+               display: flex;
+               padding: 2px;
+               margin: 0px;
+               margin-left: 300px;
+            }
+            .whatsapp{
+                display: flex;
+                font-size: 20px;
+                padding: 2px;
+                margin: 0px;
+                margin-left: 300px;
+    
+            }
+            
+            .correo{
+                display: flex;
+                padding: 2px;
+                margin: 0px;
+                margin-left: 300px;
+            }
+            
+            .phono{
+
+                font-size: 15px;
+                padding: 2px;
+                margin: 0px;
+                margin-left: 20px;
+                border: 0px 20px 0 20px;
+    
+        
+            }
+
+        }
+    }
+
  @media screen and (max-width:480px) {
 
     header{

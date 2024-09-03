@@ -1,4 +1,365 @@
 /*jquery*/
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+    flex-direction: column;
+  }
+  header .logo {
+    margin-right: 180px;
+  }
+  header .logo img {
+    width: 15%;
+    height: 15%;
+    margin-left: 100px;
+    right: 10px;
+  }
+  header .logo .nombre-empresa {
+    font-size: 35px;
+    text-align: center;
+    padding-left: 110px;
+  }
+  header nav {
+    margin: 10px;
+    padding: 5px;
+  }
+  header a {
+    font-size: 20px;
+  }
+  .header-inicio {
+    width: 100%;
+  }
+  .body-inicio {
+    width: 100%;
+    left: 0px;
+    margin: O;
+    position: relative;
+    padding-bottom: 2.5em;
+    background-color: rgb(255, 237, 237);
+  }
+  .fiesta-img {
+    height: 100%;
+  }
+  .fiesta-img img {
+    width: 40%;
+    height: 10%;
+    margin-top: 0px;
+  }
+  .fiesta-img .subt {
+    text-align: center;
+    padding: auto;
+    margin-right: 0px;
+  }
+  .fiesta-img .creamos {
+    font-size: 1.2rem;
+    margin-right: 55px;
+  }
+  .container {
+    height: 80px;
+    flex-direction: column;
+    margin-bottom: 760px;
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-bottom: 100px;
+  }
+  .container .div1 .div2 .div3 .di1 .di2 .di3 {
+    max-width: 80%;
+    padding: 50px 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .container p {
+    font-size: 1rem;
+  }
+  .linea {
+    margin-left: 5px;
+    margin: 5px;
+  }
+  h2 {
+    margin: 5px;
+  }
+  .grid-containers {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    /*page2*/
+  }
+  .grid-containers .grid-items img {
+    width: 80%;
+    height: 80%;
+  }
+  .grid-containers .uno {
+    grid-column: 1/1;
+    grid-row: 1/1;
+  }
+  .grid-containers .dos {
+    grid-column: 2/2;
+    grid-row: 1/1;
+  }
+  .grid-containers .tres {
+    grid-column: 1/1;
+    grid-row: 2/2;
+  }
+  .grid-containers .cuatro {
+    grid-column: 2/2;
+    grid-row: 2/2;
+  }
+  .grid-containers .cinco {
+    grid-column: 1/1;
+    grid-row: 3/3;
+  }
+  .grid-containers .seis {
+    grid-column: 2/2;
+    grid-row: 3/3;
+  }
+  .grid-containers .siete {
+    grid-column: 1/1;
+    grid-row: 4/4;
+  }
+  .grid-containers .ocho {
+    grid-column: 2/2;
+    grid-row: 4/4;
+  }
+  .grid-containers .nueve {
+    grid-column: 1/1;
+    grid-row: 5/5;
+  }
+  .grid-containers .dies {
+    grid-column: 2/2;
+    grid-row: 5/5;
+  }
+  .grid-containers .once {
+    grid-column: 1/1;
+    grid-row: 6/6;
+  }
+  .grid-containers .doce {
+    grid-column: 2/2;
+    grid-row: 6/6;
+  }
+  .grid-containers .saberr {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  .grid-containers .uno_1 {
+    grid-column: 1/1;
+    grid-row: 7/7;
+  }
+  .grid-containers .dos_2 {
+    grid-column: 2/2;
+    grid-row: 7/7;
+  }
+  .grid-containers .tres_3 {
+    grid-column: 1/1;
+    grid-row: 8/8;
+  }
+  .grid-containers .cuatro_4 {
+    grid-column: 2/2;
+    grid-row: 8/8;
+  }
+  .grid-containers .cinco_5 {
+    grid-column: 1/1;
+    grid-row: 9/9;
+  }
+  .grid-containers .seis_6 {
+    grid-column: 2/2;
+    grid-row: 9/9;
+  }
+  .grid-containers .siete_7 {
+    grid-column: 1/1;
+    grid-row: 10/10;
+  }
+  .grid-containers .ocho_8 {
+    grid-column: 2/2;
+    grid-row: 10/10;
+  }
+  .grid-containers .nueve_9 {
+    grid-column: 1/1;
+    grid-row: 11/11;
+  }
+  .grid-containers .diez_10 {
+    grid-column: 2/2;
+    grid-row: 11/11;
+  }
+  .grid-containers .once_11 {
+    grid-column: 1/1;
+    grid-row: 12/12;
+  }
+  .grid-containers .doce_12 {
+    grid-column: 2/2;
+    grid-row: 12/12;
+  }
+  .grid-containers .catorce {
+    grid-column: 1/1;
+    grid-row: 13/13;
+  }
+  .grid-containers .quince {
+    grid-column: 2/2;
+    grid-row: 13/13;
+  }
+  .grid-containers .dieciseis {
+    grid-column: 1/1;
+    grid-row: 14/14;
+  }
+  .grid-containers .dicisiete {
+    grid-column: 2/2;
+    grid-row: 14/14;
+  }
+  .grid-containers .diciocho {
+    grid-column: 1/1;
+    grid-row: 15/15;
+  }
+  .grid-containers .diecinueve {
+    grid-column: 2/2;
+    grid-row: 15/15;
+  }
+  .grid-containers .veinticinco {
+    grid-column: 1/1;
+    grid-row: 16/16;
+  }
+  .grid-containers .veintiseis {
+    grid-column: 2/2;
+    grid-row: 16/16;
+  }
+  .grid-containers .veintisiete {
+    grid-column: 1/1;
+    grid-row: 17/17;
+  }
+  .grid-containers .veintiocho {
+    grid-column: 2/2;
+    grid-row: 17/17;
+  }
+  .grid-containers .veintinueve {
+    grid-column: 1/1;
+    grid-row: 18/18;
+  }
+  .grid-containers .treinta {
+    grid-column: 2/2;
+    grid-row: 18/18;
+  }
+  .grid-containers .treintiuno {
+    grid-column: 1/1;
+    grid-row: 19/19;
+  }
+  .grid-containers .treintidos {
+    grid-column: 2/2;
+    grid-row: 19/19;
+  }
+  .grid-containers .treintitres {
+    grid-column: 1/1;
+    grid-row: 20/20;
+  }
+  .grid-containers .treinticuatro {
+    grid-column: 2/2;
+    grid-row: 20/20;
+  }
+  .grid-containers .treinticinco {
+    grid-column: 1/1;
+    grid-row: 21/21;
+  }
+  .servicios {
+    margin-left: 0px;
+  }
+  h4 {
+    margin-left: 180px;
+    text-align: center;
+  }
+  .nacio {
+    margin-left: 200px;
+  }
+  .nosotrosdecodulces {
+    height: 70%;
+    width: 100%;
+    display: inline-block;
+  }
+  .nosotrosdecodulces .detalles {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5rem;
+    padding: 10px 50px 10px 50px;
+    margin: 5px;
+    border: 0px;
+  }
+  .nosotrosdecodulces .imgregalos {
+    width: 70%;
+    margin-left: 150px;
+  }
+  .imgdeco {
+    margin-left: 250px;
+  }
+  footer {
+    display: inline-block;
+  }
+  footer .instagram {
+    display: flex;
+    padding: 2px;
+    margin: 0px;
+    margin-left: 330px;
+  }
+  footer .facebook {
+    display: flex;
+    padding: 2px;
+    margin: 0px;
+    margin-left: 330px;
+  }
+  footer .whatsapp {
+    display: flex;
+    font-size: 20px;
+    padding: 2px;
+    margin: 0px;
+    margin-left: 330px;
+  }
+  footer .correo {
+    display: flex;
+    padding: 2px;
+    margin: 0px;
+    margin-left: 330px;
+  }
+  footer .phono {
+    font-size: 15px;
+    padding: 2px;
+    margin: 0px;
+    margin-left: 40px;
+  }
+  .footer-inicio {
+    display: block;
+    width: 168%;
+    position: relative;
+    left: -200px;
+    font-size: 10px;
+  }
+  .footer-inicio .instagram {
+    display: flex;
+    padding: 2px;
+    margin: 0px;
+    margin-left: 300px;
+  }
+  .footer-inicio .facebook {
+    display: flex;
+    padding: 2px;
+    margin: 0px;
+    margin-left: 300px;
+  }
+  .footer-inicio .whatsapp {
+    display: flex;
+    font-size: 20px;
+    padding: 2px;
+    margin: 0px;
+    margin-left: 300px;
+  }
+  .footer-inicio .correo {
+    display: flex;
+    padding: 2px;
+    margin: 0px;
+    margin-left: 300px;
+  }
+  .footer-inicio .phono {
+    font-size: 15px;
+    padding: 2px;
+    margin: 0px;
+    margin-left: 20px;
+    border: 0px 20px 0 20px;
+  }
+}
 @media screen and (max-width: 480px) {
   header .logo {
     padding-top: 20px;
