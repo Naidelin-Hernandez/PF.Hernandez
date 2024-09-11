@@ -74,8 +74,8 @@
     margin-left: 5px;
     margin: 5px;
   }
-  h2 {
-    margin: 5px;
+  .deco1 h2 {
+    margin-top: 10px;
   }
   .grid-containers {
     display: grid;
@@ -90,6 +90,7 @@
   .grid-containers .uno {
     grid-column: 1/1;
     grid-row: 1/1;
+    grid-row: 20px;
   }
   .grid-containers .dos {
     grid-column: 2/2;
@@ -281,10 +282,27 @@
   }
   .nosotrosdecodulces .imgregalos {
     width: 70%;
-    margin-left: 150px;
+    margin-left: 140px;
   }
   .imgdeco {
     margin-left: 250px;
+  }
+  .pagos {
+    display: inline;
+    height: 100px;
+    width: 100px;
+    margin-left: 110px;
+  }
+  .pedidos {
+    display: inline;
+    height: 100px;
+    width: 100px;
+    margin-left: 110px;
+  }
+  .caracas {
+    height: 120px;
+    width: 200px;
+    margin-left: 330px;
   }
   footer {
     display: inline-block;
@@ -362,7 +380,7 @@
 }
 @media screen and (max-width: 480px) {
   header .logo {
-    padding-top: 20px;
+    padding-top: 15px;
   }
   header .logo img {
     height: 70px;
@@ -384,23 +402,31 @@
     font-size: 14px;
   }
   .header-inicio {
-    margin-right: -145px;
+    width: 100%;
+  }
+  .body-inicio {
+    width: 100%;
+    left: 0px;
+    margin: O;
+    position: relative;
+    padding-bottom: 2.5em;
+    background-color: rgb(255, 237, 237);
   }
   .body {
     min-height: 50vh;
   }
   .body-inicio {
     display: flex;
-    width: 70%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     position: relative;
     padding-bottom: 1.5em;
   }
   .fiesta-img {
     height: 70%;
-    width: 100%;
+    width: 90%;
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 25px;
   }
   .fiesta-img .fiesta-img img {
     width: 100%;
@@ -419,7 +445,7 @@
     line-height: 2rem;
   }
   .linea_1 {
-    width: 140%;
+    width: 98%;
     margin-top: 5px;
     margin-left: 5px;
     margin-right: 20px;
@@ -428,15 +454,15 @@
     line-height: 1.1rem;
     font-size: 1.2rem;
   }
-  .deco1 {
-    margin-left: 130px;
+  .deco1 h2 {
+    margin-left: 40px;
   }
   .container {
     height: 70px;
     flex-direction: column;
     margin-bottom: 900px;
     padding-left: 0px;
-    margin-left: 222px;
+    margin-left: 130px;
     align-items: center;
   }
   .container .div1 .div2 .div3 .di1 .di2 .di3 {
@@ -671,6 +697,23 @@
   .imgdeco {
     margin-left: 60px;
   }
+  .pagos {
+    display: inline;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+  }
+  .pedidos {
+    display: inline;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+  }
+  .caracas {
+    height: 100px;
+    width: 100px;
+    margin-left: 200px;
+  }
   /*page2*/
   h4 {
     margin-left: 190px;
@@ -710,13 +753,30 @@
     margin: 0px;
     margin-left: 40px;
   }
+  .pagos {
+    display: inline;
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+  }
+  .pedidos {
+    display: inline;
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+  }
+  .caracas {
+    height: 100px;
+    width: 100px;
+    margin-left: 200px;
+  }
   .footer-inicio {
     width: 100%;
     display: inline-block;
     position: relative;
     margin-right: 0px;
-    padding-right: 220px;
-    left: 10px;
+    padding-right: 250px;
+    left: 5px;
     font-size: 10px;
     text-align: center;
   }

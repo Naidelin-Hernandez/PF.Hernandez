@@ -34,7 +34,7 @@
         }
      }
 
-     .header-inicio{
+    .header-inicio{
         width: 100%;
      }
 
@@ -98,8 +98,8 @@
         margin: 5px;
     }
 
-    h2{
-       margin: 5px;
+    .deco1 h2{
+        margin-top: 10px;
 
     }
 
@@ -110,12 +110,13 @@
 
          .grid-items img{
             width: 80%;
-            height: 80%;;
-            }
+            height: 80%;
+        }
 
 
         .uno{grid-column: 1 / 1;
          grid-row: 1 / 1;
+         grid-row: 20px;
         }
      
         .dos{
@@ -373,18 +374,39 @@
             }
             .imgregalos{
                 width: 70%;
-                margin-left: 150px;
+                margin-left: 140px;
     
           
             }
     
          }
     
-    
-    
          .imgdeco{
             margin-left: 250px;
          }
+
+
+    .pagos{
+        display: inline;
+        height: 100px;
+        width: 100px;
+        margin-left: 110px;
+
+    }
+
+    .pedidos{
+        display: inline;
+        height: 100px;
+        width: 100px;
+        margin-left: 110px;
+    }
+
+    .caracas{
+        height: 120px;
+        width: 200px;
+        margin-left: 330px;
+    }
+
 
     footer{
         display: inline-block;
@@ -490,7 +512,7 @@
 
         .logo{
 
-            padding-top: 20px;
+            padding-top: 15px;
 
             img{
                 height: 70px;
@@ -519,8 +541,17 @@
     }
 
     .header-inicio{
+        width: 100%;
+     }
 
-        margin-right: -145px;
+    .body-inicio{
+        width: 100%;
+        left: 0px;
+        margin: O;
+        position: relative; 
+        padding-bottom: 2.5em;
+        background-color: rgb(255, 237, 237);
+    
     }
 
 
@@ -529,8 +560,8 @@
     }
     .body-inicio{
         display: flex;
-        width: 70%;
-        height: 60%;
+        width: 100%;
+        height: 100%;
         position: relative;
         padding-bottom: 1.5em;
        
@@ -540,9 +571,9 @@
 
     .fiesta-img{
         height: 70%;
-        width: 100%;
+        width: 90%;
         display: inline-block;
-        margin-left: 70px;
+        margin-left: 25px;
 
         .fiesta-img img{
             width: 100%; 
@@ -568,7 +599,7 @@
     }
 
     .linea_1{
-       width: 140%;
+       width: 98%;
        margin-top: 5px;
        margin-left: 5px;
        margin-right: 20px;
@@ -579,8 +610,8 @@
     
     }
 
-    .deco1{
-        margin-left: 130px;
+    .deco1 h2{
+        margin-left: 40px;
      }
 
     .container{
@@ -588,7 +619,7 @@
             flex-direction: column;
             margin-bottom: 900px;
             padding-left: 0px;
-            margin-left: 222px;
+            margin-left: 130px;
             align-items: center;
 
             .div1 .div2 .div3 .di1 .di2 .di3{
@@ -858,25 +889,21 @@
                     grid-row: 29 / 29;
                 }
 
-                   
-
-
-            
              
          }
 
     .servicios{
             margin-left: 0px;
-     }
+    }
 
 
      /*page3*/
 
-     .nacio{
+    .nacio{
         margin-left: 30px;
-     }
+    }
 
-     .nosotrosdecodulces{
+    .nosotrosdecodulces{
         height: 70%;
         width: 100%;
         display: inline-block;
@@ -897,13 +924,34 @@
       
            }
 
-     }
+    }
 
 
 
-     .imgdeco{
+    .imgdeco{
         margin-left: 60px;
      }
+
+    .pagos{
+        display: inline;
+        height: 100px;
+        width: 100px;
+        margin-left: 100px;
+
+    }
+
+    .pedidos{
+        display: inline;
+        height: 100px;
+        width: 100px;
+        margin-left: 100px;
+    }
+
+    .caracas{
+        height: 100px;
+        width: 100px;
+        margin-left: 200px;
+    }
 
 
 /*page2*/
@@ -958,6 +1006,31 @@
 
 
     }
+
+
+    .pagos{
+        display: inline;
+        height: 100px;
+        width: 100px;
+        margin-left: 50px;
+
+    }
+
+    .pedidos{
+        display: inline;
+        height: 100px;
+        width: 100px;
+        margin-left: 50px;
+    }
+
+    .caracas{
+        height: 100px;
+        width: 100px;
+        margin-left: 200px;
+    }
+
+
+ 
     
     .footer-inicio{
 
@@ -965,8 +1038,8 @@
         display: inline-block;
         position: relative;
         margin-right: 0px;
-        padding-right: 220px;
-        left: 10px;
+        padding-right: 250px;
+        left: 5px;
         font-size: 10px;
         text-align: center;
 
